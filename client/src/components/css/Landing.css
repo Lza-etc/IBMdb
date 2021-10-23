@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#live-online-tutor {
+  color: rgb(75, 94, 126);
+  font-weight: 400;
+  line-height: normal;
+}
+
+#math-coding {
+  color: rgb(252, 181, 0);
+  font-weight: 400;
+  line-height: normal;
+}
+
+.landing-intro-box span {
+  color: rgb(75, 94, 126);
+  font-weight: 700;
+  line-height: normal;
+}
+
+.content-center {
+  color: rgb(75, 94, 126) !important;
+  font-weight: 200;
+}
+
+.btn__book-class {
+  color: white !important;
+  background-color: rgb(250, 179, 0) !important;
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+}
+
+.btn__book-class:hover {
+  background-color: rgb(75, 94, 126) !important;
+}
+
+.btn.btn-square {
+  border-radius: 8px;
+}
+
+.container-nyu_info {
+  background-color: rgb(75, 94, 126);
+  color: white;
+  font-size: 25px;
+  font-weight: 400;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 1px 4px 0px;
+}
+
+.container-info {
+  background-color: rgb(237, 237, 237);
+  padding: 2px !important;
+  margin: 2px !important;
+}
+
+.img-info h4 {
+  color: rgb(75, 94, 126);
+  font-weight: 700;
+}
+
+.img-item-info {
+  min-width: 90px;
+}
+
+.container-book_class-end {
+  background-color: rgb(250, 179, 0);
+  color: white !important;
+  padding: 25px;
+  border-radius: 20px;
+}
+
+.btn__book-class-end {
+  color: rgb(250, 179, 0) !important;
+  font-size: 12px !important;
+  background-color: white !important;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 1px 4px 0px;
+  border-radius: 160px !important;
+  text-align: center !important;
+}
+
+.btn__book-class-end:hover {
+  color: black !important;
+  background-color: rgb(196, 196, 196) !important;
+}
+
+.img-kid-landing {
+  max-height: 225px;
+  min-width: 340px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .landing-intro-box h3 {
+    font-size: 30px;
+  }
+  .container-nyu_info h3 {
+    font-size: 18px;
+  }
+  .landing-intro-box h4 {
+    font-size: 27px;
+  }
+  .landing-intro-box span {
+    font-size: 27px;
+  }
+  .img-info h4 {
+    font-size: 17px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .landing-intro-box h3 {
+    font-size: 36px;
+  }
+  .container-nyu_info h3 {
+    font-size: 20px;
+  }
+  .landing-intro-box h4 {
+    font-size: 31px;
+  }
+  .landing-intro-box span {
+    font-size: 20px;
+  }
+  .img-info h4 {
+    font-size: 20px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .landing-intro-box h3 {
+    font-size: 34px;
+  }
+  .container-nyu_info h3 {
+    font-size: 20px;
+  }
+  .landing-intro-box h4 {
+    font-size: 29px;
+  }
+  .landing-intro-box span {
+    font-size: 20px;
+  }
+  .img-info h4 {
+    font-size: 22px;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .landing-intro-box h3 {
+    font-size: 44px;
+  }
+  .container-nyu_info h3 {
+    font-size: 24px;
+  }
+  .landing-intro-box h4 {
+    font-size: 35px;
+  }
+  .landing-intro-box span {
+    font-size: 19px;
+  }
+  .img-info h4 {
+    font-size: 24px;
+  }
+}

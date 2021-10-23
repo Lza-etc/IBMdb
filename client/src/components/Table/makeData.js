@@ -4,6 +4,7 @@ const newVideo = (data) => {
       humidity:data.humidity,
       temperature:data.temperature,
       buyer: data.buyer,
+      date:data.Date,
     }
 }
 

@@ -13,6 +13,11 @@ const ReactTable = ({ d }) => {
   const columns = useMemo(
     () => [
       {
+        Header: 'Date',
+        accessor: 'date',
+        disableFilters: true,
+      },
+      {
         Header: 'Seller',
         accessor: 'seller',
         disableFilters: true,

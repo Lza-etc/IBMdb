@@ -1,10 +1,10 @@
 import { React, useState } from "react";
-import { Navbar, Nav, Container,Spinner,Row } from "react-bootstrap";
-import ReactTable from "./ReactTable.js";
+import { Spinner,Row } from "react-bootstrap";
+import ReactTable from "./ReactTable";
 
 import axios from "axios";
 
-function Home() {
+function DataTable() {
   const [data, setData] = useState([]);
   const [f, setF] = useState(true);
   const [loading, setLoading] = useState(true);
@@ -21,32 +21,9 @@ function Home() {
       })
       .catch((err) => console.log(err));
   }
+
   return (
     <div>
-      <header>
-        <Navbar
-          fixed="top"
-          className="navbar py-3"
-          variant="dark"
-          bg="secondary"
-          expand="xl"
-        >
-          <Container>
-            <Navbar.Brand href="#home">SensorData</Navbar.Brand>
-            <Nav className="  justify-content-end">
-              <Nav.Link href="#features" className="mx-4">
-                Feautures
-              </Nav.Link>
-              <Nav.Link href="#aboutus" className="mx-4">
-                About Us
-              </Nav.Link>
-              <Nav.Link href="#pricing" className="mx-4">
-                Pricing
-              </Nav.Link>
-            </Nav>
-          </Container>
-        </Navbar>
-      </header>
       <div  style={{ width: '65rem', margin:'11rem'}}>
         <Row >
           <Row className="p-3 ">
@@ -69,8 +46,8 @@ function Home() {
           </Row>
         </Row>
       </div>
-    </div>
+      </div>
   );
 }
 
-export default Home;
+export default DataTable;
