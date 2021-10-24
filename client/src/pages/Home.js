@@ -1,17 +1,18 @@
-import React from 'react';
-import '../components/css/Landing.css';
+import React from "react";
 
-const Home = () => (
-  <div
-    style={{
-      height: '100vh',
-      display: 'flex',
-      alignItems: 'center',
-      justifyContent: 'center',
-    }}
-  >
-    <h1>Welcome, Admin</h1>
-  </div>
-);
+import Hero from "../sections/Hero";
+import LandingLayout from "../layout/LandingLayout";
 
-export default Home;
+export default function Home() {
+  return (
+    <LandingLayout  style={{marginTop: '8rem'}}>
+      <Hero
+        title="Build this rad landing page from scratch"
+        subtitle="This is the subheader section where you describe the basic benefits of your product"
+        image="https://source.unsplash.com/collection/404339/800x600"
+        ctaText="Create your account now"
+        ctaLink="/signup"
+      />
+    </LandingLayout>
+  );
+}

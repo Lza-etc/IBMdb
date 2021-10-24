@@ -1,7 +1,7 @@
 import React from 'react';
 import { Nav, NavDropdown} from 'react-bootstrap';
 
-export const NavLink = ({ title, href }) => (
+export const NavgLink = ({ title, href }) => (
   <Nav.Link className="navbar-item mx-3" href={href}>
     <b>{title}</b>
   </Nav.Link>
@@ -29,4 +29,6 @@ export const DashDropdown = ({ setIsZoomHovered, isZoomHovered }) => (
     </NavDropdown.Item>
   </NavDropdown>
 );
+
+
 
